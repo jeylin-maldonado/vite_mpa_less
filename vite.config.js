@@ -1,6 +1,7 @@
 import { defineConfig } from 'vite'
 
 export default defineConfig({
+  base: '/vite_mpa_less/',   // ← Esta línea es la que faltaba
   build: {
     rollupOptions: {
       input: {
